@@ -32,6 +32,31 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
               ),
+               Gap(16),
+              PackageCard(
+                title: 'Google Map Widget',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const GoogleMapWidget(),
+                    ),
+                  );
+                },
+              ),
+               Gap(16),
+              PackageCard(
+                title: 'Google Map Widget',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const GoogleMapWidget(),
+                    ),
+                  );
+                },
+              ),
+               Gap(16),
             ],
           ),
         ),
